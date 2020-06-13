@@ -8,7 +8,7 @@ if __name__ == "__main__":
         if not ret:
             continue
 
-        cv2.imshow('webcam', frame)
+        cv2.imshow('webcam image', frame)
         cv2.waitKey(0)
 
     cap.release()
